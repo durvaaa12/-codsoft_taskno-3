@@ -1,2 +1,2 @@
 # -codsoft_taskno-3
-This contain Calculator project based on html css which changes its theme light to dark by toggle button 
+This contain Calculator project based on html css and javascript which changes its theme light to dark by toggle button 
