@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Click on that circle button</h2>
+
+    <div class="box">
+        <div class="calculator dark">
+            <div class="theme-toggler active">
+                <div class="toggler-icon"></div>
+            </div>
+            <div class="display ouput">
+                <div id="display"></div>
+            </div>
+            <div class="button">
+                <table>
+                    <tr>
+                        <td><button class="bt-operator" id="clear">C</button></td>
+                        <td><button class="bt-operator" id="/">&divide;</button></td>
+                        <td><button class="bt-operator" id="*">&times;</button></td>
+                        <td><button class="bt-operator" id="backspace"><</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="bt-number" id="7">7</button></td>
+                        <td><button class="bt-number" id="8">8</button></td>
+                        <td><button class="bt-number" id="9">9</button></td>
+                        <td><button class="bt-operator" id="-">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="bt-number" id="4">4</button></td>
+                        <td><button class="bt-number" id="5">5</button></td>
+                        <td><button class="bt-number" id="6">6</button></td>
+                        <td><button class="bt-operator" id="+">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="bt-number" id="1">1</button></td>
+                        <td><button class="bt-number" id="2">2</button></td>
+                        <td><button class="bt-number" id="3">3</button></td>
+                        <td rowspan="3"><button class="bt-equal" id="equal">=</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="bt-operator" id="(">(</button></td>
+                        <td><button class="bt-operator" id="0">0</button></td>
+                        <td><button class="bt-operator" id=")">)</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
